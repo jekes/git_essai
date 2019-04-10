@@ -1,0 +1,27 @@
+<ion-content>
+  <div id="map" style="width:100%; height:100%;position:absolute"></div>
+</ion-content>
+
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="Stop()">Stop</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Longitude
+      </ion-col>
+      <ion-col>
+        {{ longitude | number:'1.1-7'}}
+      </ion-col>
+      <ion-col>
+        Latitude
+      </ion-col>
+      <ion-col>
+        {{ latitude | number:'1.1-7'}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

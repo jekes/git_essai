@@ -1,0 +1,41 @@
+<ion-content>
+  <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+        <ion-card>
+          <ion-card-header>
+            <div text-center>
+              <h4>{{ 'SIGN_IN.TEXT' | translate}}</h4>
+            </div>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item *ngIf="errorDisplay">
+              <ion-label class="error-message">{{Erreur}}</ion-label>
+            </ion-item>
+            <form novalidate [formGroup]="signinForm" (ngSubmit)="signin2()">
+              <ion-item>
+                <ion-label color="primary" position="stacked">{{ 'SIGN_IN.USERNAME' | translate}}</ion-label>
+                <ion-input type="text" formControlName="username"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label color="primary" position="stacked">{{ 'SIGN_IN.PASSWORD' | translate}}</ion-label>
+                <ion-input type="password" formControlName="password"></ion-input>
+              </ion-item>
+              <div padding>
+                <ion-button expand="block" color="primary" type="submit" [disabled]="!signinForm.valid">
+                  {{ 'SIGN_IN.BUTTON_IN' | translate}}
+                </ion-button>
+                <ion-button expand="block" color="secondary" [routerLink]="['/signup']">
+                  {{ 'SIGN_IN.BUTTON_OUT' | translate}}
+                </ion-button>
+                <ion-button expand="block" color="tertiary" (click)="Demo()">
+                  {{ 'SIGN_IN.BUTTON_DEMO' | translate}}
+                </ion-button>
+              </div>
+            </form>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

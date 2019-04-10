@@ -1,0 +1,21 @@
+{
+    "SIGN_IN": {
+        "TEXT": "Bienvenue",
+        "USERNAME": "Nom d'utilisateur ou email",
+        "PASSWORD": "Mot de passe",
+        "BUTTON_IN": "Connexion",
+        "BUTTON_OUT": "Inscription",
+        "BUTTON_DEMO": "Mode démonstration"
+    },
+    "SIGN_UP": {
+        "TITLE": "Inscription",
+        "USER_NAME": "Nom d'utilisateur",
+        "FIRST_NAME": "Prénom",
+        "LAST_NAME": "Nom",
+        "EMAIL": "Email",
+        "PASSWORD": "Mot de passe",
+        "CONFIRM_PASSWORD": "Confirmation du mot de pass",
+        "TERMS": "J'accepte les conditions d'utilisation",
+        "BUTTON_SUBMIT": "Inscription"
+    }
+}

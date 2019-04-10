@@ -1,0 +1,25 @@
+<ion-header>
+  <app-header [name]="TabUsed"></app-header>
+ </ion-header>
+ <ion-content class="nav">
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1" (click)="TabUsed = 'TEST'">
+      <ion-icon name="flash"></ion-icon>
+      <ion-label>Tab One</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2" (click)="TabUsed = 'TEST 2'">
+      <ion-icon name="apps"></ion-icon>
+      <ion-label>Tab Two</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3" (click)="TabUsed = 'TEST 3'">
+      <ion-icon name="send"></ion-icon>
+      <ion-label>Tab Three</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+</ion-content>

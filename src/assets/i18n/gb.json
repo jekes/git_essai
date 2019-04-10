@@ -1,0 +1,21 @@
+{
+    "SIGN_IN": {
+        "TEXT": "Welcome",
+        "USERNAME": "Username or email",
+        "PASSWORD": "Password",
+        "BUTTON_IN": "Sign in",
+        "BUTTON_OUT": "Sign out",
+        "BUTTON_DEMO": "Demo mode"
+    },
+    "SIGN_UP": {
+        "TITLE": "Register",
+        "USER_NAME": "Username",
+        "FIRST_NAME": "First name",
+        "LAST_NAME": "Last name",
+        "EMAIL": "Email",
+        "PASSWORD": "Password",
+        "CONFIRM_PASSWORD": "Confirm password",
+        "TERMS": "I accept terms and conditions",
+        "BUTTON_SUBMIT": "Register"
+    }
+}

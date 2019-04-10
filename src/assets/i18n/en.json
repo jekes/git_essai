@@ -1,0 +1,9 @@
+{
+    "SIGN_IN": {
+        "TEXT": "Welcome",
+        "USERNAME": "Username or email",
+        "PASSWORD": "Password",
+        "BUTTON_IN": "Sign in",
+        "BUTTON_OUT": "Sign out"
+    }
+}

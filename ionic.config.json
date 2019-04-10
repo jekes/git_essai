@@ -1,0 +1,7 @@
+{
+  "name": "vqautre_q",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
